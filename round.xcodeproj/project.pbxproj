@@ -22,6 +22,7 @@
 		FE90F1DD19408028002247AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE90F1BC19408028002247AE /* UIKit.framework */; };
 		FE90F1E519408028002247AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE90F1E319408028002247AE /* InfoPlist.strings */; };
 		FE90F1E719408028002247AE /* roundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90F1E619408028002247AE /* roundTests.m */; };
+		FE90F1F2194082CD002247AE /* WKColorRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE90F1F1194082CD002247AE /* WKColorRoundView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		FE90F1E219408028002247AE /* roundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "roundTests-Info.plist"; sourceTree = "<group>"; };
 		FE90F1E419408028002247AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE90F1E619408028002247AE /* roundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = roundTests.m; sourceTree = "<group>"; };
+		FE90F1F0194082CD002247AE /* WKColorRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKColorRoundView.h; sourceTree = "<group>"; };
+		FE90F1F1194082CD002247AE /* WKColorRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKColorRoundView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				FE90F1D119408028002247AE /* ViewController.m */,
 				FE90F1D319408028002247AE /* Images.xcassets */,
 				FE90F1BF19408028002247AE /* Supporting Files */,
+				FE90F1F0194082CD002247AE /* WKColorRoundView.h */,
+				FE90F1F1194082CD002247AE /* WKColorRoundView.m */,
 			);
 			path = round;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				FE90F1D219408028002247AE /* ViewController.m in Sources */,
 				FE90F1C919408028002247AE /* AppDelegate.m in Sources */,
 				FE90F1C519408028002247AE /* main.m in Sources */,
+				FE90F1F2194082CD002247AE /* WKColorRoundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
